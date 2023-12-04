@@ -5,10 +5,7 @@
     "outDir": "dist",
     "sourceMap": true,
     "noImplicitAny": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "baseUrl": "src"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
